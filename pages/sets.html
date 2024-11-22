@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/output.css" />
+  </head>
+  <body>
+    <main class="grid grid-cols-[1fr_4fr_1.5fr]">
+      <header class="py-8 pl-[50px] flex items-start flex-col gap-7">
+        <a class="border-b-2 pb-4 border-[gray]" href="./index.html">
+          <img src="../assets/img/logo.png" alt="" />
+        </a>
+        <a class="flex items-center gap-3 group" href="#"
+          ><img src="../assets/svg/link1.svg" alt="" />
+          <h3 class="group-hover:text-1">Пицца</h3></a
+        >
+        <a class="flex items-center gap-3 group" href="./sets.html"
+          ><img src="../assets/svg/link2.svg" alt="" />
+          <h3 class="group-hover:text-1">Сеты</h3></a
+        >
+        <a class="flex items-center gap-3 group" href="#"
+          ><img src="../assets/svg/link3.svg" alt="" />
+          <h3 class="group-hover:text-1">WOK</h3></a
+        >
+        <a class="flex items-center gap-3 group" href="#"
+          ><img src="../assets/svg/link4.svg" alt="" />
+          <h3 class="group-hover:text-1">Роллы</h3></a
+        >
+        <a class="flex items-center gap-3 group" href="#"
+          ><img src="../assets/svg/link5.svg" alt="" />
+          <h3 class="group-hover:text-1">Суши</h3></a
+        >
+        <a class="flex items-center gap-3 group" href="#"
+          ><img src="../assets/svg/link6.svg" alt="" />
+          <h3 class="group-hover:text-1">Салаты</h3></a
+        >
+        <a class="flex items-center gap-3 group" href="#"
+          ><img src="../assets/svg/link7.svg" alt="" />
+          <h3 class="group-hover:text-1">Супы</h3></a
+        >
+        <a class="flex items-center gap-3 group" href="#"
+          ><img src="../assets/svg/link8.svg" alt="" />
+          <h3 class="group-hover:text-1">Корн доги</h3></a
+        >
+        <a class="flex items-center gap-3 group" href="#"
+          ><img src="../assets/svg/link9.svg" alt="" />
+          <h3 class="group-hover:text-1">Напитки</h3></a
+        >
+        <a class="flex items-center gap-3 group" href="#"
+          ><img src="../assets/svg/link10.svg" alt="" />
+          <h3 class="group-hover:text-1">Акции</h3></a
+        >
+      </header>
+
+      <section class="bg-2">
+        <div
+          class="section-top flex items-center justify-between border-b-[#a4acad71] border-b border-solid"
+        >
+          <div class="top-left flex items-center">
+            <div
+              class="top-numbers px-[40px] text-center flex flex-col border-r-[#a4acad71] border-r border-solid pb-[10px]"
+            >
+              <h1>Наш телефон</h1>
+              <a
+                class="font-medium text-lg leading-[100%] text-center text-[#FF9846]"
+                href=""
+                >+996 705 188 955
+              </a>
+              <a
+                class="font-medium text-lg leading-[100%] text-center text-[#FF9846]"
+                href=""
+                >+996 555 188 955</a
+              >
+              <p class="font-medium text-sm text-center text-[#A4ACAD]">
+                <i class="fa-regular fa-clock"></i> работаем с 10:00 до 00:00
+              </p>
+            </div>
+            <div class="top-addres pl-[25px]">
+              <h3 class="font-light text-sm text-start text-[#A4ACAD]">
+                Город: <br /><span
+                  class="font-normal text-lg text-center text-[black]"
+                  >Бишкек</span
+                >
+              </h3>
+            </div>
+          </div>
+          <div class="top-right flex items-center gap-[30px] pr-[40px]">
+            <a href="">Отзывы</a>
+            <a href="">Доставка и оплата</a>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+
+        <div class="w-[90%] m-auto">
+          <div class="sets">
+            <div class="sets-title flex items-center gap-[20px] py-[30px]">
+              <img src="./../assets/svg/sets.svg" alt="" />
+              <h1 class="font-normal text-4xl text-black">Сеты</h1>
+            </div>
+            <div class="sets-cards grid grid-cols-[repeat(3,1fr)] gap-[15px]">
+              <div class="sets-card w-[260px] bg-[white] p-[20px]">
+                <div class="card-img">
+                  <img src="./../assets/svg/set1.svg" alt="" />
+                </div>
+                <div
+                  class="sets-card-txt pb-[20px] border-b-[#80808057] border-b border-solid"
+                >
+                  <h1 class="font-medium text-2xl text-black py-[30px]">
+                    Саломон сет
+                  </h1>
+                  <h3 class="font-normal text-lg text-[#A4ACAD]">
+                    1050 грамм, 30 кусочков
+                  </h3>
+                </div>
+                <div
+                  class="news-txt-bottom flex items-center gap-[10px] py-[15px]"
+                >
+                  <h1 class="font-bold text-[16px] text-black">1500 СОМ</h1>
+                  <button
+                    class="w-[143px] h-10 bg-[#F46D40] font-medium text-2xl text-center text-[white] px-[42px] py-[5px] rounded-[5px]"
+                  >
+                    Хочу!
+                  </button>
+                </div>
+              </div>
+
+              <div class="sets-card w-[260px] bg-[white] p-[20px]">
+                <div class="card-img">
+                  <img src="./../assets/svg/set2.svg" alt="" />
+                </div>
+                <div
+                  class="sets-card-txt pb-[20px] border-b-[#80808057] border-b border-solid"
+                >
+                  <h1 class="font-medium text-2xl text-black py-[30px]">
+                    Сет "5 Филадельфий"
+                  </h1>
+                  <h3 class="font-normal text-lg text-[#A4ACAD]">
+                    1120 грамм 40 кусочек
+                  </h3>
+                </div>
+                <div
+                  class="news-txt-bottom flex items-center gap-[10px] py-[15px]"
+                >
+                  <h1 class="font-bold text-[16px] text-black">1499 СОМ</h1>
+                  <button
+                    class="w-[143px] h-10 bg-[#F46D40] font-medium text-2xl text-center text-[white] px-[42px] py-[5px] rounded-[5px]"
+                  >
+                    Хочу!
+                  </button>
+                </div>
+              </div>
+
+              <div class="sets-card w-[260px] bg-[white] p-[20px]">
+                <div class="card-img">
+                  <img src="./../assets/svg/set3.svg" alt="" />
+                </div>
+                <div
+                  class="sets-card-txt pb-[20px] border-b-[#80808057] border-b border-solid"
+                >
+                  <h1 class="font-medium text-2xl text-black py-[30px]">
+                    Филадельфия и лосось сет
+                  </h1>
+                  <h3 class="font-normal text-lg text-[#A4ACAD]">
+                    1260 грамм 36 кусочек
+                  </h3>
+                </div>
+                <div
+                  class="news-txt-bottom flex items-center gap-[10px] py-[15px]"
+                >
+                  <h1 class="font-bold text-[16px] text-black">1499 СОМ</h1>
+                  <button
+                    class="w-[143px] h-10 bg-[#F46D40] font-medium text-2xl text-center text-[white] px-[42px] py-[5px] rounded-[5px]"
+                  >
+                    Хочу!
+                  </button>
+                </div>
+              </div>
+              <div class="sets-card w-[260px] bg-[white] p-[20px]">
+                <div class="card-img">
+                  <img src="./../assets/svg/set1.svg" alt="" />
+                </div>
+                <div
+                  class="sets-card-txt pb-[20px] border-b-[#80808057] border-b border-solid"
+                >
+                  <h1 class="font-medium text-2xl text-black py-[30px]">
+                    Саломон сет
+                  </h1>
+                  <h3 class="font-normal text-lg text-[#A4ACAD]">
+                    1050 грамм, 30 кусочков
+                  </h3>
+                </div>
+                <div
+                  class="news-txt-bottom flex items-center gap-[10px] py-[15px]"
+                >
+                  <h1 class="font-bold text-[16px] text-black">1500 СОМ</h1>
+                  <button
+                    class="w-[143px] h-10 bg-[#F46D40] font-medium text-2xl text-center text-[white] px-[42px] py-[5px] rounded-[5px]"
+                  >
+                    Хочу!
+                  </button>
+                </div>
+              </div>
+
+              <div class="sets-card w-[260px] bg-[white] p-[20px]">
+                <div class="card-img">
+                  <img src="./../assets/svg/set2.svg" alt="" />
+                </div>
+                <div
+                  class="sets-card-txt pb-[20px] border-b-[#80808057] border-b border-solid"
+                >
+                  <h1 class="font-medium text-2xl text-black py-[30px]">
+                    Сет "5 Филадельфий"
+                  </h1>
+                  <h3 class="font-normal text-lg text-[#A4ACAD]">
+                    1120 грамм 40 кусочек
+                  </h3>
+                </div>
+                <div
+                  class="news-txt-bottom flex items-center gap-[10px] py-[15px]"
+                >
+                  <h1 class="font-bold text-[16px] text-black">1499 СОМ</h1>
+                  <button
+                    class="w-[143px] h-10 bg-[#F46D40] font-medium text-2xl text-center text-[white] px-[42px] py-[5px] rounded-[5px]"
+                  >
+                    Хочу!
+                  </button>
+                </div>
+              </div>
+
+              <div class="sets-card w-[260px] bg-[white] p-[20px]">
+                <div class="card-img">
+                  <img src="./../assets/svg/set3.svg" alt="" />
+                </div>
+                <div
+                  class="sets-card-txt pb-[20px] border-b-[#80808057] border-b border-solid"
+                >
+                  <h1 class="font-medium text-2xl text-black py-[30px]">
+                    Филадельфия и лосось сет
+                  </h1>
+                  <h3 class="font-normal text-lg text-[#A4ACAD]">
+                    1260 грамм 36 кусочек
+                  </h3>
+                </div>
+                <div
+                  class="news-txt-bottom flex items-center gap-[10px] py-[15px]"
+                >
+                  <h1 class="font-bold text-[16px] text-black">1499 СОМ</h1>
+                  <button
+                    class="w-[143px] h-10 bg-[#F46D40] font-medium text-2xl text-center text-[white] px-[42px] py-[5px] rounded-[5px]"
+                  >
+                    Хочу!
+                  </button>
+                </div>
+              </div>
+              <div class="sets-card w-[260px] bg-[white] p-[20px]">
+                <div class="card-img">
+                  <img src="./../assets/svg/set1.svg" alt="" />
+                </div>
+                <div
+                  class="sets-card-txt pb-[20px] border-b-[#80808057] border-b border-solid"
+                >
+                  <h1 class="font-medium text-2xl text-black py-[30px]">
+                    Саломон сет
+                  </h1>
+                  <h3 class="font-normal text-lg text-[#A4ACAD]">
+                    1050 грамм, 30 кусочков
+                  </h3>
+                </div>
+                <div
+                  class="news-txt-bottom flex items-center gap-[10px] py-[15px]"
+                >
+                  <h1 class="font-bold text-[16px] text-black">1500 СОМ</h1>
+                  <button
+                    class="w-[143px] h-10 bg-[#F46D40] font-medium text-2xl text-center text-[white] px-[42px] py-[5px] rounded-[5px]"
+                  >
+                    Хочу!
+                  </button>
+                </div>
+              </div>
+
+              <div class="sets-card w-[260px] bg-[white] p-[20px]">
+                <div class="card-img">
+                  <img src="./../assets/svg/set2.svg" alt="" />
+                </div>
+                <div
+                  class="sets-card-txt pb-[20px] border-b-[#80808057] border-b border-solid"
+                >
+                  <h1 class="font-medium text-2xl text-black py-[30px]">
+                    Сет "5 Филадельфий"
+                  </h1>
+                  <h3 class="font-normal text-lg text-[#A4ACAD]">
+                    1120 грамм 40 кусочек
+                  </h3>
+                </div>
+                <div
+                  class="news-txt-bottom flex items-center gap-[10px] py-[15px]"
+                >
+                  <h1 class="font-bold text-[16px] text-black">1499 СОМ</h1>
+                  <button
+                    class="w-[143px] h-10 bg-[#F46D40] font-medium text-2xl text-center text-[white] px-[42px] py-[5px] rounded-[5px]"
+                  >
+                    Хочу!
+                  </button>
+                </div>
+              </div>
+
+              <div class="sets-card w-[260px] bg-[white] p-[20px]">
+                <div class="card-img">
+                  <img src="./../assets/svg/set3.svg" alt="" />
+                </div>
+                <div
+                  class="sets-card-txt pb-[20px] border-b-[#80808057] border-b border-solid"
+                >
+                  <h1 class="font-medium text-2xl text-black py-[30px]">
+                    Филадельфия и лосось сет
+                  </h1>
+                  <h3 class="font-normal text-lg text-[#A4ACAD]">
+                    1260 грамм 36 кусочек
+                  </h3>
+                </div>
+                <div
+                  class="news-txt-bottom flex items-center gap-[10px] py-[15px]"
+                >
+                  <h1 class="font-bold text-[16px] text-black">1499 СОМ</h1>
+                  <button
+                    class="w-[143px] h-10 bg-[#F46D40] font-medium text-2xl text-center text-[white] px-[42px] py-[5px] rounded-[5px]"
+                  >
+                    Хочу!
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="order">
+            <div class="order-title">
+              <h1 class="font-bold text-2xl text-[#A4ACAD] pt-[60px] pb-[20px]">
+                Заказать суши в Бишкеке
+              </h1>
+            </div>
+
+            <div class="order-txt">
+              <p class="font-normal text-[14px] leading-[100%] text-[#A4ACAD]">
+                Ресторан “Суши и Лапша” предлагаем своим клиентам самые вкусные
+                суши с доставкой на дом, приготовленные по классическим и
+                адаптированным к европейской аудитории рецептам, а также
+                собственным наработкам наших поваров. Мы ценим время наших
+                клиентов, поэтому вы можете заказать суши в Харькове с доставкой
+                на дом или в офис. <br /><br />
+                В нашем меню более 20 видов суши: <br /><br />
+                Классические с сырым лососем, тунцом, окунем. <br />
+                Экзотические с тигровой креветкой, морским гребешком. <br />
+                Пикантные с копченым лососем, угрем. <br />
+                <br />
+                В меню также представлены гунканы: с начинкой из красной икры и
+                тобико, а также феликсы, где японский майонез сочетается с
+                рыбой, морепродуктами, угрем. Любители острых блюд могут купить
+                суши с соусом спайси. Популярные начинки — копченая курица,
+                снежный краб, креветки, гребешки, тунец, лосось и окунь.
+              </p>
+            </div>
+            <div class="order-txt-bottom text-center pt-[30px]">
+              <h1
+                class="font-normal text-2xl leading-[100%] text-[#F46D40] mb-[50px]"
+              >
+                Подробнее <i class="fa-solid fa-angle-down"></i>
+              </h1>
+            </div>
+          </div>
+          <footer
+            class="flex items-start justify-around pb-[50px] pt-[31px] border-t-[#A4ACAD] border-t border-solid"
+          >
+            <div class="links footer-sec flex flex-col">
+              <a
+                class="font-normal text-lg leading-[100%] text-black py-[10px]"
+                href=""
+                >О компании</a
+              >
+              <a
+                class="font-normal text-lg leading-[100%] text-black py-[10px]"
+                href=""
+                >Доставка и оплата</a
+              >
+              <a
+                class="font-normal text-lg leading-[100%] text-black py-[10px]"
+                href=""
+                >Лента материалов</a
+              >
+              <a
+                class="font-normal text-lg leading-[100%] text-black py-[10px]"
+                href=""
+                >Политика возврата</a
+              >
+            </div>
+            <div
+              class="numbers footer-sec flex flex-col px-[30px] border-x-[#A4ACAD] border-l border-solid border-r"
+            >
+              <h1
+                class="font-medium text-lg text-black font-normal text-lg text-[#A4ACAD]"
+              >
+                Введите номер
+              </h1>
+              <form class="pt-[10px] pb-[20px]" action="">
+                <input
+                  class="bg-[#f2f2f2]"
+                  type="text"
+                  placeholder="+996 (__) ___ __ __"
+                />
+              </form>
+              <a class="font-normal text-lg text-[#A4ACAD]" href=""
+                >Выберите удобный <br />
+                мессенджер для общения</a
+              >
+              <div class="footer-icons flex items-center gap-[10px] pt-[15px]">
+                <i class="fa-brands fa-whatsapp text-[28px]"></i>
+                <i class="fa-brands fa-telegram text-[28px]"></i>
+                <i class="fa-brands fa-instagram text-[28px]"></i>
+              </div>
+            </div>
+            <div
+              class="addres footer-sec flex flex-col flex items-start flex-col gap-[5px]"
+            >
+              <a class="underline font-normal text-lg text-[#A4ACAD]" href=""
+                >Тел:+996 705 188 955
+              </a>
+              <a class="underline font-normal text-lg text-[#A4ACAD]" href=""
+                >Тел:+996 555 188 955
+              </a>
+              <a class="font-normal text-lg text-[#A4ACAD]" href=""
+                >Адрес:Бакаева 126</a
+              >
+            </div>
+          </footer>
+        </div>
+      </section>
+      <section>
+        <div
+          class="bg-2 text-center my-8 w-[90%] pt-[10px] m-auto rounded-[10px]"
+        >
+          <h2 class="text-[24px] font-medium">Ваша корзина пуста.</h2>
+          <p class="text-4 text-[18px] pt-3 py-10">
+            Добавьте же скорее что-нибудь!
+          </p>
+          <div
+            class="bg-1 cursor-pointer text-[#fff] rounded-[0_0_10px_10px] py-5"
+          >
+            Бесплатная доставка от 800 СОМ
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        direction: "horizontal",
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        autoplay: {
+          delay: 1000,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+  </body>
+</html>
